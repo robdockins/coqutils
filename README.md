@@ -1,4 +1,4 @@
 coqutils
 ========
 
-A collection of Coq utilities
+An unorganized collection of Coq utilities.
