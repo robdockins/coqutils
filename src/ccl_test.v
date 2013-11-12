@@ -1,3 +1,5 @@
+(* Robert Dockins (c) 2013. *)
+
 Require Import ccl.
 
 Definition asdf (f:nat -> nat -> nat) := True.

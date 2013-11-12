@@ -1,3 +1,5 @@
+(* Robert Dockins (c) 2013. *)
+
 Require Import ski.
 
 Definition asdf (f:nat -> nat -> nat) := True.

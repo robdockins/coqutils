@@ -1,4 +1,6 @@
-(* Tactics for Categorical Combinatory Logic (CCL).
+(* Robert Dockins (c) 2013.
+   
+   Tactics for Categorical Combinatory Logic (CCL).
  
    These tactics will transform Gallina terms into
    "points-free" form using Curien's categorical combinators.

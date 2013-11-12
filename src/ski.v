@@ -1,3 +1,5 @@
+(* Robert Dockins (c) 2013. *)
+
 Delimit Scope ski_scope with ski.
 Open Scope ski_scope.
 
