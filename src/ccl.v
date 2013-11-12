@@ -576,12 +576,11 @@ Tactic Notation "ccl_simpl" "in" hyp(H) := (CCL.ccl_simpl_hyp H).
 Tactic Notation "unccl" := (CCL.unccl_goal).
 Tactic Notation "unccl" "in" hyp(H) := (CCL.unccl_hyp H).
 
-Notation "f ∘ g"  := (@CCL.compose _ _ _ f g).
-Notation "〈 f , g 〉" := (@CCL.pairing _ _ _ f g).
-Notation "'Λ' f" := (@CCL.curry _ _ _ f).
-Notation Id := CCL.Id.
-Notation app := CCL.app.
-Notation K' A B := (CCL.curry (@fst A B)) (only parsing).
+Notation "f ∘ g"  := (@CCL.compose _ _ _ f g) : ccl_scope.
+Notation "〈 f , g 〉" := (@CCL.pairing _ _ _ f g) : ccl_scope.
+Notation "'Λ' f" := (@CCL.curry _ _ _ f) : ccl_scope.
+Notation Id := (CCL.Id).
+Notation app := (CCL.app).
+Notation K' A B := (CCL.curry (@fst A B)) (only parsing). 
 Notation K := (CCL.curry (@fst _ _)).
 Notation var := (CCL.var _ _ _).
-
